@@ -1,0 +1,33 @@
+
+form{
+    background:#F5F5F5;
+    padding:20px;
+    border-radius:10px;
+    width:400px;
+    margin:auto;
+}
+
+h2{
+    color:#2E7D32;
+    text-align:center;
+}
+
+input[type="submit"]{
+    background:#2E7D32;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:#66BB6A;
+}
+
+textarea{
+    width:100%;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:8px;
+}
