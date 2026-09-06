@@ -1,5 +1,29 @@
 
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #fffaf1;
+}
+
+header {
+    padding: 20px;
+    background-color: #2e7d32;
+    text-align: center;
+}
+
+nav a {
+    margin: 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffd180;
+    text-decoration: underline;
+}
 
 .categorias{
     padding:40px;

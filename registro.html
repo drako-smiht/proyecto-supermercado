@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellaner Market | Registro</title>
+    <link rel="stylesheet" href="acceso.css">
+</head>
+<body>
+    <header class="encabezado">
+        <a class="marca" href="inicio.html">Bellaner Market</a>
+        <nav aria-label="Navegación principal">
+            <a href="inicio.html">Inicio</a>
+            <a href="sobre nosotros.html">Sobre nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="productos destacados.html">Productos destacados</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contáctanos</a>
+            <a href="login.html">Iniciar sesión</a>
+            <a href="sitios-interes.html">Sitios de interés</a>
+        </nav>
+    </header>
+
+    <main>
+        <header class="titulo-pagina">
+            <h1>Formulario de registro</h1>
+            <p>Completa tus datos para crear tu cuenta en Bellaner Market.</p>
+        </header>
+
+        <form class="panel-formulario" action="login.html" method="get">
+            <div class="campo">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            </div>
+            <div class="campo">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </div>
+            <div class="campo">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel" required>
+            </div>
+            <div class="campo">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion" autocomplete="street-address" required>
+            </div>
+            <div class="campo">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" minlength="6" autocomplete="new-password" required>
+            </div>
+            <div class="campo">
+                <label for="confirmacion">Confirmar contraseña</label>
+                <input type="password" id="confirmacion" name="confirmacion" minlength="6" autocomplete="new-password" required>
+            </div>
+            <button class="boton" type="submit">Crear cuenta</button>
+        </form>
+    </main>
+
+    <footer class="pie-pagina">
+        <strong>Bellaner Market</strong>
+        <nav aria-label="Navegación del pie de página">
+            <a href="inicio.html">Inicio</a>
+            <a href="login.html">Iniciar sesión</a>
+            <a href="contacto.html">Contáctanos</a>
+        </nav>
+        <small>&copy; 2026 Bellaner Market</small>
+    </footer>
+</body>
+</html>

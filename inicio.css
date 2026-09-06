@@ -1,3 +1,32 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+header {
+    padding: 15px;
+    background-color: #2e7d32;
+    text-align: center;
+}
+
+nav a {
+    margin: 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+    color: #2e7d32;
+}
 
 form{
     background:#F5F5F5;
@@ -30,4 +59,17 @@ textarea{
     border:1px solid #ccc;
     border-radius:5px;
     padding:8px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
 }

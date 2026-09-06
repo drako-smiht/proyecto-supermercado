@@ -1,9 +1,35 @@
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+}
 
-.productos{
+header {
+    padding: 20px;
+    background-color: #2e7d32;
+    text-align: center;
+}
+
+nav a {
+    margin: 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.productos {
     background:#F5F5F5;
     padding:40px;
     text-align:center;
+}
+
+.productos h1 {
+    color: #2e7d32;
 }
 
 .contenedor-productos{
